@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "echange_experts",
+  "info": {
+    "singularName": "echange-expert",
+    "pluralName": "echange-experts",
+    "displayName": "echange-expert"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
